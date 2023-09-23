@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+
+    <header class="header">
+      <a href="#" class="name">PORTFOLIO</a>
+    </header>
+
+    <section class="homePage" id="homePage">
+        <div class="intro-content">
+             <h1> Hi! I AM VYASS</h1>
+             <h3> Software Developer</h3>
+
+             <p> Developer ready to work on application development and also eager to learn new technologies and 
+                evolve myself to the requirements of technicalfield.
+
+             </p>
+
+        </div>
+     
+     </section>
+
+     <section class="experience"  id="myExperience" >
+        <div class="experience-content">
+          <a href="javascript:void(0)" onclick="closeNav()" style="bottom: 0 ;right: 50px;position: absolute ;text-decoration: none;color: bisque;"> CLOSE</a>
+
+            <h1> WORK EXPERIENCE</h1>
+            <h2>TATA CONSULTANCY SERVICES </h2>
+            <h3> [JAN 2022- JUL 2023]</h3>
+
+            <p> Worked as a developer in agile environment and provide controllers to the rest api and mock the controllers.
+                As well as worked in automation testing .Have experience working in agile environment completing tasks before the provided time 
+                 and also have knOwledge in source control GIT</p>
+        </div>
+
+        <section class="projects">
+
+          <h1> PROJECTS</h1>
+          <h3 > 1.Portfolio Website - Using HTML and CSS AND REACT JS</h2>
+          <p> Developed a portfolio website with React Js to add functionality to web page .
+            This page will give notifications when it got any viewers.
+          </p> 
+
+          <h3>2.WORKOUT TRACKER APPLICATION- REACT JS AND NODE JS</h2>
+
+          <P>Application is used in tracking workout of user in every day and reminds user for workout in that day if he not entered the workout</P>
+
+      </section>
+
+
+       <div class="edu-content">
+            <h1> Education </h1>
+            <h3>Bachelor of Engineering - 888888 [xyzzz-xyx] </h3>
+            <h4> 
+                abc College of Engineering</br>
+                abc
+            </h4>
+       </div>
+
+
+       <section class="contact">
+        <h1> ADDRESS</h1>
+        <h4 > EMAIL:abc@gmail.com</h4>
+    
+ </section>
+
+     </section>
+
+     <section class="skills">
+      <h1 class="skil-head"> SKILLS</h1>
+      <a> HTML</a>
+      <hr class="line1">
+      <a> CSS</a>
+      <hr class="line2">
+      <a> REACT JS</a>
+      <hr class="line3">
+      <a> JAVA</a>
+
+      <div>
+        <a href="#" class="nextbox" onclick="openNav()"> Next</a>
+      </div>
+      
+    </section>
+      
+     <script>
+        function openNav() {
+          document.getElementById("myExperience").style.width = "100%";
+          
+        }
+        
+        function closeNav() {
+          document.getElementById("myExperience").style.width = "0";
+        }
+        </script>
+</body>
+</html>
